@@ -39,8 +39,6 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 
 
-### Source Code Implementation:
-
 #### Data Collection and Preprocessing: We manually built the input datasets by surveying people.
 
 1. allow_forbidden.csv: This dataset contains pairs of questions, with one question presenting a statement in an affirmative stance, while the corresponding "scrambled" question presents a similar statement but from a negative or opposing perspective.
@@ -53,6 +51,10 @@ This project explores bias and memorization phenomena in language models (LMs) u
 1. allow_forbidden.csv: CSV file with pairs of questions and scrambled questions.
 2. demographic_rephrase.csv: CSV file with survey questions related to demographic factors and their scrambled versions.
 3. jumbled_options.csv: CSV file containing questions with jumbled response options.
+
+
+### Source Code Implementation:
+
 
 ### Bias Analysis
 
