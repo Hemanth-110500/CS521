@@ -7,7 +7,7 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 ### Source Code Implementation:
 
-#### Data Collection and Preprocessing:
+#### Data Collection and Preprocessing: We manually built the input datasets by surveying people.
 
 1. allow_forbidden.csv: This dataset contains pairs of questions, with one question presenting a statement in an affirmative stance, while the corresponding "scrambled" question presents a similar statement but from a negative or opposing perspective.
 
