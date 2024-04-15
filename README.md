@@ -5,6 +5,38 @@
 ### Description:
 This project explores bias and memorization phenomena in language models (LMs) using various question-answer datasets. We analyze how LMs respond to different types of questions, considering factors such as wording variations, demographic references, question structures and jumbling options. The analysis aims to provide insights into the behavior of LMs regarding bias, fairness, and memorization across diverse datasets.
 
+### Source code Description:
+
+1. OpenAI API Integration:
+
+* The code integrates with the OpenAI API to interact with language models (LMs) such as ChatGPT and Claude.
+
+* It utilizes the OpenAI Python package to facilitate communication with the API.
+
+2. Prompt Generation and Response Retrieval:
+
+* The code generates prompts for the language models based on provided format instructions and survey questions.
+
+* It retrieves responses from the language models using the generated prompts.
+
+3. Data Processing and Analysis:
+
+* The code performs data processing tasks such as cleaning and standardizing survey responses.
+
+* It analyzes the data to measure bias and memorization in the language models' outputs.
+
+4. Visualization and Reporting:
+
+* The code generates visualizations (e.g., bar charts, pie and stacked bar charts) to present the analysis results.
+
+* It computes metrics such as fairness measures, novelty scores, and overlap analyses to quantify bias and memorization.
+
+5. Output File Generation:
+
+* The code generates output files (e.g., CSV files) containing processed data and analysis results.
+
+* It saves the output files for further examination and reporting.
+
 
 
 ### Source Code Implementation:
