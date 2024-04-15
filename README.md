@@ -45,6 +45,12 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 * Claude Memorization Analysis: Similarly, we conduct memorization analysis using the Claude LM by merging output files and calculating novelty score and overlap analysis.
 
+### Stereotype Analysis:
+
+* Examining if there are any stereotype words present in the question and if they are present, finding out if the answer was same for the actual question and scrambled question for those type of questions
+
+* Conducted the above anaylsis for both chatGPT and Claude model for the demographic dataset
+
 
 ### Instructions for Running the Source Code:
 
