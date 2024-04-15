@@ -39,7 +39,9 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 
 
-#### Data Collection and Preprocessing: We manually built the input datasets by surveying people.
+### Data Collection and Preprocessing
+
+#### We manually built the input datasets by surveying people.
 
 1. allow_forbidden.csv: This dataset contains pairs of questions, with one question presenting a statement in an affirmative stance, while the corresponding "scrambled" question presents a similar statement but from a negative or opposing perspective.
 
@@ -56,7 +58,7 @@ This project explores bias and memorization phenomena in language models (LMs) u
 ### Source Code Implementation:
 
 
-### Bias Analysis
+#### Bias Analysis
 
 * GPT LLM Bias Analysis: We utilized the GPT LM (Language Model) to analyze bias in responses. The LM generates responses to survey questions, and we compare the similarity between responses to assess bias.
 
@@ -65,7 +67,7 @@ This project explores bias and memorization phenomena in language models (LMs) u
 * Claude Bias Analysis and Fairness Measure Calculation: Similar to the GPT LLM Bias Analysis, we conducted bias analysis using the Claude LM to compare responses and calculate the fairness measure.
 
 
-### Memorization Analysis:
+#### Memorization Analysis:
 
 * GPT LLM Memorization Analysis: We examine memorization behavior in the GPT LM by analyzing the consistency of responses across different outputs.
 
@@ -79,16 +81,16 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 * Claude Memorization Analysis: Similarly, we conduct memorization analysis using the Claude LM by merging output files and calculating novelty score and overlap analysis.
 
-### Stereotype Analysis:
+#### Stereotype Analysis:
 
 * Examining if there are any stereotype words present in the question and if they are present, finding out if the answer was same for the actual question and scrambled question for those type of questions
 
 * Conducted the above anaylsis for both chatGPT and Claude model for the demographic dataset
 
 
-### Instructions for Running the Source Code:
+#### Instructions for Running the Source Code:
 
-#### Install the required Python packages using pip:
+1. Install the required Python packages using pip:
 
 * pip install openai
 
@@ -98,12 +100,12 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 * pip install plotly
 
-#### Replace the file paths in the code with the paths to your dataset files.
-#### Ensure you have valid API keys for accessing the OpenAI API (for ChatGPT and Claude).
-#### Execute the provided Python script to run the bias and memorization analyses.
+2.  Replace the file paths in the code with the paths to your dataset files.
+3.  Ensure you have valid API keys for accessing the OpenAI API (for ChatGPT and Claude).
+4. Execute the provided Python script to run the bias and memorization analyses.
 
 
-### Output and Results files
+#### Output and Results files
 
 * Bias Analysis Output: The output of the bias analysis includes fairness measures calculated for GPT LLM and Claude.
 * Memorization Analysis Output: Output files contain analysis results, including novelty scores and overlap analysis scores, for both GPT LLM and Claude.
