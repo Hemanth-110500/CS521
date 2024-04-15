@@ -38,3 +38,21 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 * Claude Memorization Analysis: Similarly, we conduct memorization analysis using the Claude LM by merging output files and calculating novelty score and overlap analysis.
 
+
+### Instructions for Running the Source Code:
+
+#### Install the required Python packages using pip:
+
+* pip install openai
+
+* pip install anthropic
+
+* pip install pandas
+
+* pip install plotly
+
+#### Replace the file paths in the code with the paths to your dataset files.
+#### Ensure you have valid API keys for accessing the OpenAI API (for ChatGPT and Claude).
+#### Execute the provided Python script to run the bias and memorization analyses.
+
+
