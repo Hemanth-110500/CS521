@@ -15,6 +15,11 @@ This project explores bias and memorization phenomena in language models (LMs) u
 
 3. jumbled_options.csv: This dataset contains questions where the options for response are presented in a different order compared to the original question.
 
+#### Input Data Format:
+1. allow_forbidden.csv: CSV file with pairs of questions and scrambled questions.
+2. demographic_rephrase.csv: CSV file with survey questions related to demographic factors and their scrambled versions.
+3. jumbled_options.csv: CSV file containing questions with jumbled response options.
+
 ### Bias Analysis
 
 * GPT LLM Bias Analysis: We utilized the GPT LM (Language Model) to analyze bias in responses. The LM generates responses to survey questions, and we compare the similarity between responses to assess bias.
@@ -54,5 +59,11 @@ This project explores bias and memorization phenomena in language models (LMs) u
 #### Replace the file paths in the code with the paths to your dataset files.
 #### Ensure you have valid API keys for accessing the OpenAI API (for ChatGPT and Claude).
 #### Execute the provided Python script to run the bias and memorization analyses.
+
+
+### Output and Results files
+
+#### Bias Analysis Output: The output of the bias analysis includes fairness measures calculated for GPT LLM and Claude.
+#### Memorization Analysis Output: Output files contain analysis results, including novelty scores and overlap analysis scores, for both GPT LLM and Claude.
 
 
