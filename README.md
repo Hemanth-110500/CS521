@@ -14,3 +14,7 @@ This project explores bias and memorization phenomena in language models (LMs) u
 2. demographic_rephrase.csv: The demographic_rephrase dataset consists of survey questions related to various demographic factors, such as location, socioeconomic status, and personal opinions or concerns. Each question is paired with a corresponding scrambled version, altering specific details while maintaining the overall structure and context.
 
 3. jumbled_options.csv: This dataset contains questions where the options for response are presented in a different order compared to the original question.
+
+### Bias Analysis
+
+* GPT LLM Bias Analysis: We utilized the GPT LM (Language Model) to analyze bias in responses. The LM generates responses to survey questions, and we compare the similarity between responses to assess bias.
